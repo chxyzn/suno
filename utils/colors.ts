@@ -1,0 +1,20 @@
+export const COLORS = {
+  // primary: "#FFC700",
+  // secondary: "#FFA26B",
+  // white: "#fff",
+  // black: "#000",
+  // lightGray: "#f5f5f6",
+  // gray: "#BEC1D2",
+  // darkGray: "#898C95",
+  // dark: "#1E1F20",
+  // transparent: "transparent",
+  // transparentBlack1: "rgba(0, 0, 0, 0.1)",
+  // transparentBlack7: "rgba(0, 0, 0, 0.7)",
+  // I dont like the above color scheme. Please generate a new one:
+  primary: "#0A071E",
+  secondary: "#FFD700",
+  white: "#fff",
+  black: "#000",
+  lightGray: "#f5f5f6",
+  gray: "#BEC1D2",
+};
