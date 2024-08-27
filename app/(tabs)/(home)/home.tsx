@@ -17,6 +17,7 @@ import {
 } from "../../../utils/screen";
 import { COLORS } from "../../../utils/colors";
 import { Router, useRouter } from "expo-router";
+import SoundPlayer from "react-native-sound-player";
 
 export default function Home() {
   const router = useRouter();
@@ -122,6 +123,9 @@ const RecentlyPlayedItem = ({
     <TouchableOpacity
       onPress={() => {
         console.log("Pressed");
+        SoundPlayer.playUrl(
+          "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3"
+        );
         router.push("player");
       }}
     >
